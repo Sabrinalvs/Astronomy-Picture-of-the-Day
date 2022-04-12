@@ -4,6 +4,11 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    background-image: url(./img/universe-1686478.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 main {
     display: flex;
@@ -21,15 +26,17 @@ main {
      margin: 20px;
 }
 form {
+    background-color: rgba(35, 36, 36, 0.589);
     font-family: 'Catamaran', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    width: 50%;
-    background-color: rgba(35, 36, 36, 0.717);
+    width: 30%;
     height: 150px;
     margin: 20px;
+    border-radius: 0px 10px;
+    border: 2px solid rgb(255, 255, 255);
 }
 .descricao {
     width: 50%;
@@ -37,7 +44,7 @@ form {
 }
 #data {
     width: 50%;
-    height: 50px;
+    height: 30px;
     text-align: center;
     font-size: 15px;
 }
@@ -63,13 +70,21 @@ form {
  }
  h1{
     font-family: 'Catamaran', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    color: aliceblue;
  }
+
  h2 {
     font-family: 'Catamaran', sans-serif;
     font-size: 15px;
+    color: rgb(240, 248, 255);
  }
  img {
-    border: 2px solid #353131;
+    border: 2px solid #a5a1a1;
     width: 50%;
+ }
+ iframe {
+    border: 2px solid #a5a1a1;
+    width: 50%;
+    height: 400px;
  }
