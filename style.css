@@ -136,3 +136,50 @@ main {
     width: 50%;
     height: 400px;
  }
+ @media (max-width:769px) {
+     #resultado {
+        flex-direction: column;
+     }
+     .inicio {
+        width: 80%;
+     }
+     .textos {
+        width: 90%;
+     }
+     img {
+        width: 90%;
+     }
+     iframe {
+        width: 90%;
+     }
+
+ }
+ @media (max-width:426px) {
+    #resultado {
+       flex-direction: column;
+    }
+    .inicio {
+       width: 80%;
+    }
+    .textos {
+       width: 90%;
+    }
+    img {
+       width: 90%;
+    }
+    iframe {
+       width: 90%;
+    }
+    .tit1 {
+        font-size: 35px;
+    }
+    #data {
+        width: auto;
+    }
+    #botao {
+        width: auto;
+    }
+    .descr2 {
+        font-size: 15px;
+    }
+}
