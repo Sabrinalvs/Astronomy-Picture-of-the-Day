@@ -27,6 +27,7 @@ function buscarInfo(data){
                 $(".descr2").text(resposta.explanation);
                 $("#video").attr("src", resposta.url);
             }
+            window.scrollTo(0,600);
         },
     });
 }
