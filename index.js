@@ -16,15 +16,15 @@ function buscarInfo(data){
             if (resposta.media_type == "image"){
                 $("#video").hide();
                 $("#imagem").show();
-                $("#titulo").text(resposta.title);
-                $("#descricao").text(resposta.explanation);
+                $(".tit2").text(resposta.title);
+                $(".descr2").text(resposta.explanation);
                 $("#imagem").attr("src", resposta.url);
 
             } else {
                 $("#imagem").hide();
                 $("#video").show();
-                $("#titulo").text(resposta.title);
-                $("#descricao").text(resposta.explanation);
+                $(".tit2").text(resposta.title);
+                $(".descr2").text(resposta.explanation);
                 $("#video").attr("src", resposta.url);
             }
         },

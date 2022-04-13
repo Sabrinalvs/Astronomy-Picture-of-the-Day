@@ -4,46 +4,77 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background-image: url(./img/universe-1686478.jpg);
+    background-image: url(./img/v1013-p-0028a.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+/* Section1 */
+
 .inicio {
     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     width: 90%;
-     font-family: 'Catamaran', sans-serif;
-     margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    font-family: 'Catamaran', sans-serif;
+    margin: 20px;
+    background-color: #202a3a90;
+    border: 2px solid  #fdfdfe;
+    border-radius: 0px 30px;
 }
-form {
-    background-color: rgba(35, 36, 36, 0.589);
+
+.descricao {
+    width: 85%;
+    padding: 20px;
+}
+
+.tit1 {
+    font-weight: 500;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #d28a4c;
+    text-shadow: 2px 2px 4px #1b1a1a;
+    
+}
+
+.descr1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(240, 248, 255);
+    text-shadow: 2px 2px 4px #1b1a1a;
+}
+
+.formulario {
     font-family: 'Catamaran', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 30%;
+    width: 60%;
     height: 150px;
-    margin: 20px;
-    border-radius: 0px 10px;
-    border: 2px solid rgb(255, 255, 255);
+    margin: 10px;
+    
 }
-.descricao {
-    width: 50%;
-    padding: 20px;
-}
+
 #data {
-    width: 50%;
+    background-color: #d28a4c;
+    border: 2px solid #1b1a1abb;
+    border-radius: 10px;
+    color: #fdfdfe;
+    width: 60%;
     height: 30px;
     text-align: center;
     font-size: 15px;
@@ -54,7 +85,13 @@ form {
     width: 30%;
     height: 30px;
     font-size: 15px;
+    border-radius: 10px;
+    border: #1b1a1a;
+    color: #d28a4c;
 }
+
+/* Section 2 */
+
  #resultado {
      display: flex;
      flex-direction: row;
@@ -62,27 +99,38 @@ form {
      justify-content: center;
      width: 90%;
      font-family: 'Catamaran', sans-serif;
-     margin: 20px;
+     padding: 20px;
+     margin-top: 40px;
  }
- .textos{
+ 
+ .textos {
      width: 50%;
      padding: 20px;
  }
- h1{
+
+ .tit2 {
     font-family: 'Catamaran', sans-serif;
-    font-size: 30px;
-    color: aliceblue;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    color: #d28a4c;
+    text-shadow: 2px 2px 4px #1b1a1a;
  }
 
- h2 {
+.descr2 {
     font-family: 'Catamaran', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 500;
     color: rgb(240, 248, 255);
+    text-shadow: 2px 2px 4px #1b1a1a;
  }
+
  img {
     border: 2px solid #a5a1a1;
     width: 50%;
+    height: max-content 400px;
  }
+
  iframe {
     border: 2px solid #a5a1a1;
     width: 50%;
